@@ -1,6 +1,32 @@
-h1 {
-    color:#ff4a00;
+*{
+    box-sizing: border-box;
+    
+    margin: 0;
+    paddding: 0; 
 }
-h2{
-    color: #0021a5;
+
+body {
+    font-size 16px;
+}
+p{
+    margin-bottom: 1rem
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+}
+    header a{
+    
+    color:#aaaaaa;
+    text-decoration: none;
+}
+
+    header a: active {
+    text-decoration: underline;
+}
+
+header a:hover {
+    color: #ffffff;
+    
 }
