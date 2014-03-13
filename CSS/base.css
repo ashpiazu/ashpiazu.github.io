@@ -9,10 +9,14 @@ body{
 header{
     
     margin-bottom:30px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #2e3192;
 }
 
+#masthead {
+     
+}
 nav{
     background-color: #27aae1;
     border: none;
@@ -20,10 +24,12 @@ nav{
     height: 40px;
     font-size: 18px;
     font-family: "gill sans","helvetica", sans-serif;
-    color: #ffffff;
+  
+    
+    
     text-align: center;
 }
-
+nav a {color: #ffffff}
 nav a:hover {color: #f7821e }
 div{
     background-color:white;
@@ -43,15 +49,15 @@ h1 {
 }
 img {
   border-radius: 12px;
-   
-.img{
-            float: left;
-        }    
-}
+  }
+p {
+    text-indent: 40px;}
+
 figure {
     text-align: center;
     width: 40%;
     padding: 5px;
     border: 5px;
+    
     
 }
