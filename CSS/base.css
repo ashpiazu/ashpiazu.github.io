@@ -20,7 +20,7 @@ nav{
     height: 40px;
     font-size: 18px;
     font-family: "gill sans","helvetica", sans-serif;
-    color: red;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -28,23 +28,30 @@ nav a:hover {color: #f7821e }
 div{
     background-color:white;
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
     font-size: 16px;
     font-family: "gill sans","helvetica", sans-serif;
     line-height: 24px;
     margin-bottom: 1em;   
+    max-width: 950px;
+     
 }
 
 h1 {
     color: #27aae1;
-
-body {
-          
-    }
-p{
-  
-        
+    font-size: 30px;
 }
-nav.secondardy {
-        background-color: #f7821e
-    }
+img {
+  border-radius: 12px;
+   
+.img{
+            float: left;
+        }    
+}
+figure {
+    text-align: center;
+    width: 40%;
+    padding: 5px;
+    border: 5px;
+    
+}

@@ -10,6 +10,7 @@
         <link rel="stylesheet" 
               href="CSS/base.css" />
     </head>
+    <body>
     <header id="masthead" role="banner"><img src="img/newlogo.jpg" width="270" height="249" alt=azp-logo title="azp logo"> 
       <nav>
             <a href="index.html">Home</a><!--Homepage-->
@@ -22,7 +23,7 @@
         </nav>
     
     </header>
-    <body>
+    
         <div  id= "wrapper">
            
 <!--Main content begins-->
@@ -30,24 +31,29 @@
 <h1>Contact Info</h1>
            <h2>Please feel free to email me or follow me on social media</h2>
            <!--email button start-->
-           <form>
+           <ul>
+           <li><form>
                <input value="Email Me"      onclick="location.href='mailto:ashpiazu@ufl.edu'"
 type="button">
-           </form>
+           </form></li>
            <!-- Twitter follow button start -->
 
-<a href="http://twitter.com/ashpiazu" class="twitter-follow-button">Follow @ashpiazu</a>
+<li><a href="http://twitter.com/ashpiazu" class="twitter-follow-button">Follow @ashpiazu</a>
 
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
 <!-- Twitter follow button end -->
-<!--Pinterest follow button start-->
-<a href="http://pinterest.com/ashpiazu/"><img src="http://s-passets-ec.pinimg.com/images/about/buttons/pinterest-button.png" width="80" height="28" alt="Follow Me on Pinterest" /></a>
+
+               <!--Pinterest follow button start-->
+<li><a href="http://pinterest.com/ashpiazu/"><img src="http://s-passets-ec.pinimg.com/images/about/buttons/pinterest-button.png" width="80" height="28" alt="Follow Me on Pinterest" /></a></li>
 <!--Pinterest follow button end-->
+               </ul>
             </article>
             <!--End of main content-->
+           </div>
+        
+    
             <footer>
-                <nav>
+                <nav class="secondary" >
                   <a href="index.html">Home</a><!--Homepage-->
             <a href="who-i-am.html">Who I Am </a> <!--bio-->
             <a href="what-i've-done.html">What I've Done </a> <!--      examples of clips-->
@@ -59,8 +65,5 @@ type="button">
                 
                 <p id="copyright">&copy; Ashley Azpiazu 2014</p>
            </footer>
-           </div>
-        
-    </body>
-
+        </body>
 </html>
