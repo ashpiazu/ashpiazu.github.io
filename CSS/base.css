@@ -20,8 +20,11 @@ nav{
     height: 40px;
     font-size: 18px;
     font-family: "gill sans","helvetica", sans-serif;
-    color: #ffffff;
+    color: red;
+    text-align: center;
 }
+
+nav a:hover {color: #f7821e }
 div{
     background-color:white;
     border: none;
@@ -42,9 +45,6 @@ p{
   
         
 }
-#secondary {
+nav.secondardy {
         background-color: #f7821e
-    }
-#copyright {
-        color: #ffffff
     }
