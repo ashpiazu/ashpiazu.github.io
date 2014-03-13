@@ -26,7 +26,7 @@ header{
 .left {
     float:left;
     margin-right: 10px;
-}
+    }
 nav{
     background:#27aae1;
     border: none;
@@ -67,7 +67,7 @@ div{
 
 .clear-right {clear:right;}
 .clear-left {clear:left;}
-
+.clear-both {clear:both;}
 h1 {
     color: #27aae1;
     font-size: 30px;
@@ -87,4 +87,4 @@ p {
     max-width: 50%;
     font-size:14px;
 }
-
+h2 { font-size:24px;}
