@@ -19,17 +19,23 @@ header{
     margin-right: auto;
     border: none;
 }
-
+.right {
+    float: right;
+    margin-left: 10px;
+}
+.left {
+    float:left;
+    margin-right: 10px;
+}
 nav{
-    background-color: #27aae1;
+    background:#27aae1;
     border: none;
     border-radius: 10px;
     height: 40px;
-    max-width: 950px;
     margin-right: 100px;
     margin-left: 100px;
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top:10px;
+    margin-bottom:10px;
     font-size: 18px;
     font-family: "gill sans","helvetica", sans-serif;
   
@@ -39,17 +45,18 @@ nav{
 }
 nav a {color: #ffffff}
 nav a:hover {color: #f7821e }
+
 div{
     background-color:white;
     
    
-    font-size: 16px;
+    font-size: 20px;
     font-family: "gill sans","helvetica", sans-serif;
-    line-height: 24px;
+    line-height: 22px;
     margin-bottom: 20px;   
     margin-left:100px;
     margin-right: 100px;
-    max-width: 950px;
+    max-width: "90%";
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 1px;
@@ -57,6 +64,9 @@ div{
     border-radius: 10px;
      
 }
+
+.clear-right {clear:right;}
+.clear-left {clear:left;}
 
 h1 {
     color: #27aae1;
@@ -69,14 +79,12 @@ border-color:black;
     border-width:1px;
   }
 p {
-    text-indent: 40px;}
+    text-indent: 30px;}
 
 
-figure {
-    text-align: center;
-    width: 40%;
-    padding: 5px;
-    
-    
-    
+.about figcaption {
+    width: 50%;
+    max-width: 50%;
+    font-size:14px;
 }
+
