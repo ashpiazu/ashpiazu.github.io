@@ -60,6 +60,19 @@ h2 {
 }
 nav a {color: #ffffff;}
 nav a:hover {color: #f7821e }
+#topnav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+    #topnav ul li{
+        float:left;
+    }
+        #topnav ul li a{
+            color:#ffffff;
+            padding:3px 10px;
+            text-decoration:none;
+        }
 /*Main Div aka content wrapper rules*/
 div{
     background-color:white;
