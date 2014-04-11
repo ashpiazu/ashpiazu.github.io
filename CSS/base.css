@@ -76,8 +76,6 @@ nav a:hover {color: #f7821e }
 /*Main Div aka content wrapper rules*/
 div{
     background-color:white;
-    
-   
     font-size: 20px;
     font-family: "gill sans","helvetica", sans-serif;
     line-height: 22px;
