@@ -8,12 +8,13 @@ body{
 }
 /*Header styles*/
 /*--------------------------------*/
-
+#wrapper{
+    margin:15px 100px 20px;
+}
 header{
     
     
     padding-top: 10px;
-    padding-bottom: 10px;
     background-color: #2e3192;
 }
 #logo {
@@ -36,10 +37,7 @@ nav{
     border: none;
     border-radius: 10px;
     height: 40px; 
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin:15px 100px 0;
     font-size: 20px;
     font-family: "goudy old style","cambria", serif;
   text-align: center;
@@ -57,6 +55,13 @@ h2 {
     color:#f7821e;
     font-size:24px;
     font-family: "goudy old style", "cabmria", serif;
+}
+.header{
+    padding-bottom:0;
+}
+    #header-inner{
+        margin-bottom:0;
+        padding-bottom:0;
 }
 nav a {color: #ffffff;}
 nav a:hover {color: #f7821e }
@@ -80,6 +85,11 @@ nav ul, bottomnav ul{
             color:#f7821e;
             text-decoration:underline;
         }
+@media(max-width:1180px){
+    nav ul li a{
+        font-size:16px;
+    }
+}
 @media(max-width:980px){
     nav ul li a{
         font-size:14px;
@@ -101,9 +111,7 @@ div{
     font-size: 20px;
     font-family: "gill sans","helvetica", sans-serif;
     line-height: 22px;
-    margin-bottom: 20px;   
-    margin-left:100px;
-    margin-right: 100px;
+    margin:0 100px 20px;
     max-width: "90%";
     padding-top: 1px;
     padding-bottom: 1px;
@@ -120,7 +128,26 @@ div{
         text-decoration:underline;
     }
     .content a:active{
-    color:#ff0000;
+        color:#ff0000;
+    }
+    #email {
+        height: 30px;
+        background: #27aae1;
+        color: #ffffff;
+        border-radius: 5px;
+    
+    }
+    .content ul{
+        list-style-type:none;
+    }
+        .content ul li{
+            margin-bottom:10px;
+        }
+.resume ul{
+    margin-left:25px;
+}
+footer .secondary{
+    margin-top:0 !important;
 }
 /*floats and images*/
 .clear-right {clear:right;}
@@ -133,9 +160,36 @@ border-color:black;
     border-style:solid;
     border-width:1px;
   }
+.image{
+    float:left;
+    margin-right:40px;
+    margin-left:15px;
+}
+    
+#image2{
+    float:right;
+    margin:0 20px 0 30px;
+}
+#image3{
+    margin-right:10px;
+    margin-bottom:10px;
+}
+    #image3 img{
+    max-height:277px;
+}
+#image4{
+    margin-left:10px;
+}
+#image5{
+    float:right;
+}
+.image img{
+}
 /*textual*/
 p {
-    text-indent: 30px;}
+    text-indent: 30px;
+    line-height:24px;
+}
 #copyright{
     text-align:center;
     color:#ffffff;
